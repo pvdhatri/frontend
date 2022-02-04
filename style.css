@@ -1,0 +1,25 @@
+        .margin-top-and-bottom {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: darkviolet;
+        }
+
+        .display-flex {
+            display: flex;
+        }
+
+        .margin-top-2 {
+            margin-top: 20px;
+        }
+        .margin-bottom-2 {
+            margin-bottom: 20px;
+        }
+
+        .img-style {
+            border: 2px rgb(20, 23, 220);
+        }
+
+        #body-styles {
+            font-family: 'Poppins', sans-serif;
+            background-color: lightgrey;
+        }

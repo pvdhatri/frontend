@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook card layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="body-styles">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand active" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Facebook-card</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="resume-bootstrap.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="number-guessing-game.html">Number-Guessing-Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="D'arts.html">Artarc</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main style="width: 500px;margin-left: auto;margin-right: auto; margin-bottom: 20px;">
+        <h1 style="text-align: center;">Facebook Card Layout</h1>
+
+        <!-- css flex box -->
+        <div class="display-flex margin-top-2 margin-bottom-2">
+            <img src="images/user image 1.png" alt="user-image" height="64">
+            <div>
+                <!-- inline styling -->
+                <h3 style="margin-bottom: 0px;">Dhatri PadmaVenkata</h3>
+                <p style="margin-top: 0px;">Posted 5 minutes ago</p>
+            </div>
+        </div>
+
+        <img src="images/facebook card.jpg" alt="post" width="500" height="350" class="img-style">
+    
+        <div style="display: flex; margin-top: 15px; justify-content: space-between;">
+            <div>
+                <img src="images/laughing.png" alt="laugh" height="16">
+                <img src="images/like.png" alt="like"  height="16">
+                <p style="margin-top: 0px; margin-bottom: 0px; display: inline-block;">1.3k</p>
+            </div>
+            <div>
+                <p style="margin-top: 0px; margin-bottom: 0px;display: inline-block;">132 comments</p>
+                <p style="margin-bottom: 0px; margin-top: 0px; display: inline-block;">234 shares</p>
+            </div>          
+        </div>  
+
+        <hr>
+        
+        <div style="display: flex; justify-content: space-around;">
+            <p class="margin-top-and-bottom">like</p>
+            <p class="margin-top-and-bottom">comment</p>
+            <p class="margin-top-and-bottom">share</p>
+        </div>    
+    </main>
+  </body>
+</html>
